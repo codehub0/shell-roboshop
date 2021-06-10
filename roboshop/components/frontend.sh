@@ -3,7 +3,7 @@ source components/common.sh
 rm -f /tmp/roboshop.log
 
 HEAD "Start nginx\t"
-yum intall nginx -y &>>/tmp/roboshop.log
+yum install nginx -y &>>/tmp/roboshop.log
 STAT $?
 
 HEAD "Download the HTDOC"
