@@ -12,3 +12,4 @@ STAT() {
     echo -e "\e[1;33m Check the log for more detail ... Log-File : /tmp/roboshop.log\e[0m"
     exit 1
   fi
+  }
