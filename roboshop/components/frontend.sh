@@ -2,9 +2,7 @@
 
 source components/common.sh
 
-
-
 HEAD "Installing Nginx\t"
 yum install nginx -y &>>/tmp/roboshop.log
-STAT $?
+echo -e -n "e\e[32m Done\e[0m"
 
