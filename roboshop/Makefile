@@ -1,12 +1,12 @@
 
 frontend: ## Install Frontend components
-	@sh components/frontend.sh
+	@ sh components/frontend.sh
 
 catalogue: ## Install catalogue components
 	@sh components/catalaouge.sh
 
 cart: ## Install cart components
-	@sh components/cart.sh
+	@ sh components/cart.sh
 
 user: ## Install user components
 	@sh components/user.sh
