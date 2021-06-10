@@ -1,11 +1,11 @@
 
-frontend: ## Install Frontend components
-	@ sh components/frontend.sh
+frontend : ## Install Frontend components
+	@sh components/frontend.sh
 
-catalogue: ## Install catalogue components
+catalogue :## Install catalogue components
 	@sh components/catalaouge.sh
 
-cart: ## Install cart components
+cart : ## Install cart components
 	@sh components/cart.sh
 
 user: ## Install user components
