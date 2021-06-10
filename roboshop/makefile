@@ -1,32 +1,32 @@
 help
-  @echo please enter the component name which is consider as a 1st argument
+	@echo please proived the name of contents which is consider as a 1st argument ($1)
 
-frontend: ## install frontend components
-  @sh components/frontend.sh
+frontend: ## Install Frontend components
+	@sh components/frontend.sh
 
-catalogue: ## install catalogue components
-  @sh components/catalogue.sh
+catalogue: ## Install catalogue components
+	@sh components/catalaouge.sh
 
-cart: ## install cart components
-  @sh components/cart.sh
+cart: ## Install cart components
+	@sh components/cart.sh
 
-user: ## install user components
-  @sh components/user.sh
+user: ## Install user components
+	@sh components/user.sh
 
-shipping: ## install shipping components
-  @sh components/shipping.sh
+shipping: ## Install shipping components
+	@sh components/shipping.sh
 
-payment: ## install payment components
-  @sh components/payment.sh
+payment: ## Install payment components
+	@sh components/payment.sh
 
-mongodb ## install mongodb components
-  @sh components/mongodb.sh
+mongodb: ## Install mongodb components
+	@sh components/mongodb.sh
 
-mysql: ## install mysql components
-  @sh components/mysql.sh
+mysql: ## Install mysql components
+	@sh components/mysql.sh
 
-radis: ## install radis components
-  @sh components/radis.sh
+redis: ## Install redis components
+	@sh components/redis.sh
 
-rabbitmq: ## install rabbitmq components
-  @sh components/rabbitmq.sh
+rabbitmq: ## Install rabbitmq components
+	@sh components/rabbitmq.sh
