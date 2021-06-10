@@ -1,5 +1,3 @@
-help
-	@echo please proived the name of contents which is consider as a 1st argument ($1)
 
 frontend: ## Install Frontend components
 	@sh components/frontend.sh
